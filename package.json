@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "codegen": "graphql-codegen -r ts-node/register",
-    "watch": "graphql-codegen -w",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

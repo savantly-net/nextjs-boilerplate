@@ -37,9 +37,6 @@ jobs:
       - name: 🔬 Lint
         run: pnpm run lint:strict
 
-      - name: 📦 Generate Code
-        run: pnpm run codegen
-
       - name: 🔎 Type check
         run: pnpm run typecheck
 
